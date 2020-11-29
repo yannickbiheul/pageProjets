@@ -35,6 +35,9 @@ $(".navAccueil").click(function() {
     $("#monCV").css({
         display: "none"
     });
+    $("#horloge").css({
+        display: "none"
+    });
 })
 
 $(".navCV").click(function() {
@@ -49,6 +52,9 @@ $(".navCV").click(function() {
     });
     $("#monCV").css({
         display: "flex"
+    });
+    $("#horloge").css({
+        display: "none"
     });
 })
 
@@ -65,6 +71,9 @@ $(".navSlider").click(function() {
     $("#monCV").css({
         display: "none"
     });
+    $("#horloge").css({
+        display: "none"
+    });
 })
 
 $(".navRetro").click(function() {
@@ -79,6 +88,27 @@ $(".navRetro").click(function() {
     });
     $("#monCV").css({
         display: "none"
+    });
+    $("#horloge").css({
+        display: "none"
+    });
+})
+
+$(".navHorloge").click(function () {
+    $("#demarrage").css({
+        display: "none"
+    });
+    $("#slider").css({
+        display: "none"
+    });
+    $("#retroMachin").css({
+        display: "none"
+    });
+    $("#monCV").css({
+        display: "none"
+    });
+    $("#horloge").css({
+        display: "flex"
     });
 })
 
@@ -158,6 +188,9 @@ $(".lienHorloge").click(function() {
     });
     $("#monCV").css({
         display: "none"
+    });
+    $("#horloge").css({
+        display: "flex"
     });
 })
 
