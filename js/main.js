@@ -20,7 +20,7 @@ boutonBurger.addEventListener("click", function () {
     menuBurger.classList.toggle("menuBurgerOpen");
 });
 
-
+/* MENU BURGER */
 
 $(".navAccueil").click(function() {
     $("#demarrage").css({
@@ -129,6 +129,9 @@ $(".lienAccueil").click(function() {
     $("#retroMachin").css({
         display: "none"
     });
+    $("#horloge").css({
+        display: "none"
+    });
 })
 
 $(".lienCV").click(function() {
@@ -143,6 +146,9 @@ $(".lienCV").click(function() {
     });
     $("#monCV").css({
         display: "flex"
+    });
+    $("#horloge").css({
+        display: "none"
     });
 })
 
@@ -159,6 +165,9 @@ $(".lienSlider").click(function() {
     $("#monCV").css({
         display: "none"
     });
+    $("#horloge").css({
+        display: "none"
+    });
 })
 
 $(".lienRetro").click(function() {
@@ -172,6 +181,9 @@ $(".lienRetro").click(function() {
         display: "flex"
     });
     $("#monCV").css({
+        display: "none"
+    });
+    $("#horloge").css({
         display: "none"
     });
 })
