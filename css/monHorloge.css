@@ -186,13 +186,13 @@ h1 {
 }
 
 .min {
-    width: 4px;
+    width: 3px;
     height: 38%;
     border-radius: 2px;
 }
 
 .hour {
-    width: 8px;
+    width: 5px;
     height: 28%;
     border-radius: 8px;
 }
